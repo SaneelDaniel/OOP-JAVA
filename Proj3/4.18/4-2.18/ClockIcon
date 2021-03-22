@@ -1,0 +1,119 @@
+
+
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import javax.swing.Icon;
+
+/**
+ * Class ClockIcon to create a working Clock this class implements Icon
+ * Interface
+ * 
+ * @author Arselan
+ *
+ */
+public class ClockIcon implements Icon {
+	private int width;
+	private int radius;
+	private Point2D.Double center;
+
+	/**
+	 * Constructor of Clock with a width
+	 * 
+	 * @param aWidth,
+	 *            width of the clock
+	 */
+	public ClockIcon(int aWidth) {
+		width = aWidth;
+	}
+
+	@Override
+	/**
+	 * return the height of the clock
+	 */
+	public int getIconHeight() {
+		// TODO Auto-generated method stub
+		return width;
+	}
+
+	@Override
+	/**
+	 * return the height of clock
+	 */
+	public int getIconWidth() {
+		// TODO Auto-generated method stub
+		return width;
+	}
+
+	@Override
+	/**
+	 * this method draws the clock and fills color to the clock
+	 */
+	public void paintIcon(Component c, Graphics g, int x, int y) {
+		// TODO Auto-generated method stub
+		Graphics2D g2 = (Graphics2D) g;
+		// center of clock
+		center = new Point2D.Double(x + width / 2, y + width / 2);
+		// radius of the clock
+		radius = width / 2;
+
+		// Hands of the clock
+		final double SECOND = 0.75;
+		final double MINUTE = 0.95;
+		final double HOUR = 0.55;
+
+		// draw clock face
+		Ellipse2D.Double face = new Ellipse2D.Double(x, y, width, width);
+		g2.setColor(Color.WHITE);
+		g2.fill(face);
+
+		g2.setColor(Color.BLACK);
+
+		// GregorianCalendar to get current time
+		GregorianCalendar now = new GregorianCalendar();
+		int minutes = now.get(Calendar.MINUTE);
+		int seconds = now.get(Calendar.SECOND);
+		int hours = now.get(Calendar.HOUR);
+
+		hours = hours % 12;
+		hours = hours * 5;
+		hours = hours + (int) (5 * minutes / 60.0);
+
+		// draw hands of clock
+		Line2D.Double hourLine = new Line2D.Double(center, endPoint(HOUR, hours));
+		Line2D.Double minuteLine = new Line2D.Double(center, endPoint(MINUTE, minutes));
+		Line2D.Double secondLine = new Line2D.Double(center, endPoint(SECOND, seconds));
+
+		g2.draw(hourLine);
+		g2.draw(minuteLine);
+
+		// color the second hand red
+		g2.setColor(Color.RED);
+		g2.draw(secondLine);
+	}
+
+	/**
+	 * method to calculate and return the co-ordinates of x and y points of the
+	 * clock
+	 * 
+	 * @param proportion,
+	 *            proportion of the clock
+	 * @param ticks,
+	 *            used to get the co-ordinates
+	 * @return , the point( x and y coordinates)
+	 */
+	private Point2D.Double endPoint(double proportion, int ticks) {
+		double length = proportion * radius;
+		double radians = ticks * 6 * Math.PI / 180;
+		double xEnd = center.x + length * Math.sin(radians);
+		double yend = center.y - length * Math.cos(radians);
+		return new Point2D.Double(xEnd, yend);
+	}
+}

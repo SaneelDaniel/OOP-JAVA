@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ZxLwoFIqEeq8R7MWFuKTyQ">
+  <eAnnotations xmi:id="_V4_oAFIzEeqaz5vQXoZuAg" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_V5APEFIzEeqaz5vQXoZuAg" source="dangling-refs">
+      <contents xsi:type="uml:Property" xmi:id="_aVOR0lIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVO44lIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aU_oUlIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVA2clIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVBdglIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVCEklIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVCrolIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVD5wVIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVEg0lIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVFH4lIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVGWAlIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVHkIlIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVILMlIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVIyQlIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVJZUlIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVKAYlIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVLOgVIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVL1kVIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVNDslIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aVMcolIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aU-aMVIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aU6v0VIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aU7W4lIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Property" xmi:id="_aU9MEVIqEeq8R7MWFuKTyQ" name=""/>
+      <contents xsi:type="uml:Comment" xmi:id="_aU0pMVIqEeq8R7MWFuKTyQ" body="&#xA;@author danielsaneel&#xA;@version 02-15-2020 1.0&#xA;Theater class, creates object of theater with all available seats and shows.&#xA; *"/>
+      <contents xsi:type="uml:Comment" xmi:id="_aU0pMlIqEeq8R7MWFuKTyQ" body="Inner Show Class&#xA;&#x9; * implements Comparable"/>
+      <contents xsi:type="uml:Comment" xmi:id="_aU0pMFIqEeq8R7MWFuKTyQ" body="&#xA;@author danielsaneel&#xA;@version 02-15-2020 1.0&#xA;Class Reservation, handles most of the back end functions, &#xA;Acts as a intermediate class between other objects"/>
+      <contents xsi:type="uml:Comment" xmi:id="_aU0CIFIqEeq8R7MWFuKTyQ" body="&#xA;@author danielsaneel&#xA;@version 02-15-2020 1.0&#xA;Program Launcher Class"/>
+      <contents xsi:type="uml:Class" xmi:id="_aPpOQFIqEeq8R7MWFuKTyQ" name="User"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aPrqgFIqEeq8R7MWFuKTyQ" direction="return"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aPs4oFIqEeq8R7MWFuKTyQ" name="User"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aPvU4FIqEeq8R7MWFuKTyQ" direction="return"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aPs4oVIqEeq8R7MWFuKTyQ" name="id">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </contents>
+      <contents xsi:type="uml:Parameter" xmi:id="_aPs4olIqEeq8R7MWFuKTyQ" name="password">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </contents>
+      <contents xsi:type="uml:Operation" xmi:id="_aPv78FIqEeq8R7MWFuKTyQ" name="viewReservation" isStatic="true"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aT9tkFIqEeq8R7MWFuKTyQ" name="createBooking"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aT-UoFIqEeq8R7MWFuKTyQ" name="desiredShow"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aUCmEFIqEeq8R7MWFuKTyQ" name="cancelBooking"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aUCmEVIqEeq8R7MWFuKTyQ" name="desiredShow"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aUEbQFIqEeq8R7MWFuKTyQ" name="viewReservationByDate" isStatic="true"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aUEbQVIqEeq8R7MWFuKTyQ" name="date"/>
+      <contents xsi:type="uml:Class" xmi:id="_aOxEgFIqEeq8R7MWFuKTyQ" name="Theater"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aO1V8FIqEeq8R7MWFuKTyQ" name="Theater"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aO1V81IqEeq8R7MWFuKTyQ" direction="return"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aO3yMFIqEeq8R7MWFuKTyQ" name="initializeShows"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aO4ZQFIqEeq8R7MWFuKTyQ" name="initializeSeats"/>
+      <contents xsi:type="uml:Class" xmi:id="_aOhz8FIqEeq8R7MWFuKTyQ" name="Reservation"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aOkQMFIqEeq8R7MWFuKTyQ" name="mainMenu"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aOkQMVIqEeq8R7MWFuKTyQ" name="signUp" visibility="private"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aOk3QFIqEeq8R7MWFuKTyQ" name="signIn" visibility="private"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aOk3QVIqEeq8R7MWFuKTyQ" name="transactionMode" visibility="private"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aOleUFIqEeq8R7MWFuKTyQ" name="exit" visibility="private" isStatic="true"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aTPU0FIqEeq8R7MWFuKTyQ" name="receiptMode" visibility="private"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aTPU0VIqEeq8R7MWFuKTyQ" name="loggedInUser"/>
+      <contents xsi:type="uml:Class" xmi:id="_aO6OcFIqEeq8R7MWFuKTyQ" name="Show" visibility="package"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aT1xwFIqEeq8R7MWFuKTyQ" name="Show"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aT2Y1FIqEeq8R7MWFuKTyQ" direction="return"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aT1xwVIqEeq8R7MWFuKTyQ" name="date"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aT2Y0FIqEeq8R7MWFuKTyQ" name="time"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aT5cIVIqEeq8R7MWFuKTyQ" direction="return">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </contents>
+      <contents xsi:type="uml:Parameter" xmi:id="_aT5cIFIqEeq8R7MWFuKTyQ" name="o"/>
+      <contents xsi:type="uml:Class" xmi:id="_aOWNwFIqEeq8R7MWFuKTyQ" name="ProgramLauncher"/>
+      <contents xsi:type="uml:Operation" xmi:id="_aOfXsFIqEeq8R7MWFuKTyQ" name="main" isStatic="true"/>
+      <contents xsi:type="uml:Parameter" xmi:id="_aOfXsVIqEeq8R7MWFuKTyQ" name="args">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </contents>
+    </contents>
+  </eAnnotations>
+  <modelElement href="Reservations.uml#_ZuH1kFIqEeq8R7MWFuKTyQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_atzw8FIqEeq8R7MWFuKTyQ" source="_at2NMFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVOR0VIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_atzw8VIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_at0YAFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_at0YAVIqEeq8R7MWFuKTyQ" modelElement="_aVOR0lIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_at0YAlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at0YA1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_at0YBFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="myTempBooking" navigable="true">
+      <modelElement href="Reservations.uml#_aUlYoFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Ozb-wFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzebAFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_at0YBVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at0YBlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_at1mIFIqEeq8R7MWFuKTyQ" source="_at2NMFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVO44VIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_at1mIVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_at1mIlIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_at1mI1IqEeq8R7MWFuKTyQ" modelElement="_aVO44lIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_at1mJFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at1mJVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_at1mJlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="bookings" navigable="true">
+      <modelElement href="Reservations.uml#_aUmmwVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzheUFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OziFYFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_at1mJ1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at1mKFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_au_csVIqEeq8R7MWFuKTyQ" targetItem="_avTlwFIqEeq8R7MWFuKTyQ" sourceItem="_au_csFIqEeq8R7MWFuKTyQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avADwFIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aU_oUVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avGKYVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avFjUFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avFjUVIqEeq8R7MWFuKTyQ" modelElement="_aU_oUlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avJ0wVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avJ0wFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avGKYFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="shows" navigable="true">
+      <modelElement href="Reservations.uml#_aUOzUFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OziscFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OziscVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avJ0w1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avJ0wlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avADwVIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVA2cVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avGKZVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avGKYlIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avGKY1IqEeq8R7MWFuKTyQ" modelElement="_aVA2clIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avJ0x1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avJ0xlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avGKZFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="showName" navigable="true">
+      <modelElement href="Reservations.uml#_aUQogFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Ozj6kFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_Ozj6kVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avKb0VIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avKb0FIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avADwlIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVBdgVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avGxcFIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avGKZlIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avGKZ1IqEeq8R7MWFuKTyQ" modelElement="_aVBdglIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avKb1VIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avKb1FIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avGKaFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="leftMainSeats" navigable="true">
+      <modelElement href="Reservations.uml#_aUSdsVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzlvwFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzlvwVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avKb11IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avKb1lIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avAq0FIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVCEkVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avGxdFIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avGxcVIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avGxclIqEeq8R7MWFuKTyQ" modelElement="_aVCEklIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avLC4VIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avLC4FIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avGxc1IqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="rightMainSeats" navigable="true">
+      <modelElement href="Reservations.uml#_aUU58FIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzmW0FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzmW0VIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avLC41IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avLC4lIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avAq0VIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVCroVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avGxeFIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avGxdVIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avGxdlIqEeq8R7MWFuKTyQ" modelElement="_aVCrolIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avLC51IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avLC5lIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avGxd1IqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="mainSeats" navigable="true">
+      <modelElement href="Reservations.uml#_aUWIEVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Ozm94FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_Ozm94VIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avLp8VIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avLp8FIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avAq0lIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVD5wFIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avHYgVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avGxeVIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avGxelIqEeq8R7MWFuKTyQ" modelElement="_aVD5wVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avLp9VIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avLp9FIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avHYgFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="southBalconies1" navigable="true">
+      <modelElement href="Reservations.uml#_aUX9QFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Oznk8FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzoMAFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avLp91IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avLp9lIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avAq01IqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVEg0VIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avHYhVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avHYglIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avHYg1IqEeq8R7MWFuKTyQ" modelElement="_aVEg0lIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avMRA1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avMRAlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avHYhFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="southBalconies2" navigable="true">
+      <modelElement href="Reservations.uml#_aUZLYVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzozEFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzozEVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avMRBVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avMRBFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avBR4FIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVFH4VIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avHYiVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avHYhlIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avHYh1IqEeq8R7MWFuKTyQ" modelElement="_aVFH4lIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avMRCVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avMRCFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avHYiFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="westBalconies" navigable="true">
+      <modelElement href="Reservations.uml#_aUaZgVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzqBMFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzqoQFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avM4EVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avM4EFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avBR4VIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVGWAVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avH_klIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avHYilIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avH_kFIqEeq8R7MWFuKTyQ" modelElement="_aVGWAlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avNfI1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avNfIlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avH_kVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="eastBalconies" navigable="true">
+      <modelElement href="Reservations.uml#_aUbnoVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzrPUFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzrPUVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avOGMVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avOGMFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avBR4lIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVHkIVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avH_llIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avH_k1IqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avH_lFIqEeq8R7MWFuKTyQ" modelElement="_aVHkIlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avOGNVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avOGNFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avH_lVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="availableSeats" navigable="true">
+      <modelElement href="Reservations.uml#_aUc1wVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Ozr2YFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OzsdcFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avOGN1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avOGNlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avB48FIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVILMVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avH_mlIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avH_l1IqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avH_mFIqEeq8R7MWFuKTyQ" modelElement="_aVILMlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avOtQlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avOtQVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avH_mVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="bookedSeats" navigable="true">
+      <modelElement href="Reservations.uml#_aUeD4VIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OztEgFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_OztEgVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avOtRFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avOtQ1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avB48VIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVIyQVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avImo1IqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avImoFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avImoVIqEeq8R7MWFuKTyQ" modelElement="_aVIyQlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avOtSFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avOtR1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avImolIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="initialdate" navigable="true">
+      <modelElement href="Reservations.uml#_aUfSAVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzuSoFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avOtSlIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avOtSVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avB48lIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVJZUVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avImp1IqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avImpFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avImpVIqEeq8R7MWFuKTyQ" modelElement="_aVJZUlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avPUUlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avPUUVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avImplIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="finaldate" navigable="true">
+      <modelElement href="Reservations.uml#_aUf5EVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzvgwFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avPUVFIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avPUU1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avB481IqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVKAYVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avImq1IqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avImqFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avImqVIqEeq8R7MWFuKTyQ" modelElement="_aVKAYlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avPUV1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avPUVlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avImqlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="discountNight1" navigable="true">
+      <modelElement href="Reservations.uml#_aUggIVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzwH0FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avPUWVIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avPUWFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avB49FIqEeq8R7MWFuKTyQ" source="_avTlwFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVLOgFIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avJNs1IqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avJNsFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avJNsVIqEeq8R7MWFuKTyQ" modelElement="_aVLOgVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avP7YlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avP7YVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avJNslIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="discountNight2" navigable="true">
+      <modelElement href="Reservations.uml#_aUhuQFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Ozwu4FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avP7ZFIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avP7Y1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_aviPQVIqEeq8R7MWFuKTyQ" targetItem="_avl5qVIqEeq8R7MWFuKTyQ" sourceItem="_aviPQFIqEeq8R7MWFuKTyQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avi2UFIqEeq8R7MWFuKTyQ" source="_avl5qVIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVL1kFIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avkEc1IqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avkEcFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avkEcVIqEeq8R7MWFuKTyQ" modelElement="_aVL1kVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avkrgVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avkrgFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avkEclIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="date" navigable="true">
+      <modelElement href="Reservations.uml#_aUi8YVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzxV8FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avkrg1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avkrglIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avi2UVIqEeq8R7MWFuKTyQ" source="_avl5qVIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVNDsVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avkEd1IqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avkEdFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avkEdVIqEeq8R7MWFuKTyQ" modelElement="_aVNDslIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avkrhlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avkrhVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avkEdlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="availableSeats" navigable="true">
+      <modelElement href="Reservations.uml#_aUkKgFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Ozx9AFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_Ozx9AVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avkriFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avkrh1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avl5oFIqEeq8R7MWFuKTyQ" source="_avl5qVIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aVMcoVIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avl5oVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avl5olIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avl5o1IqEeq8R7MWFuKTyQ" modelElement="_aVMcolIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avl5pFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avl5pVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avl5plIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="time" navigable="true">
+      <modelElement href="Reservations.uml#_aUjjcVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_OzzyMFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avl5p1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avl5qFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avqLEFIqEeq8R7MWFuKTyQ" sourceAnchor="141.0,0.0" targetAnchor="0.0,115.0" target="_at2NMFIqEeq8R7MWFuKTyQ" source="_avvDkFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aU-aMFIqEeq8R7MWFuKTyQ"/>
+    <bendpoints xmi:id="_a-LvQFIqEeq8R7MWFuKTyQ" sourceY="-170" targetX="-211"/>
+    <stereotypes xmi:id="_avrZMVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avqyJVIqEeq8R7MWFuKTyQ" text="">
+      <visualProperties xmi:id="_a-MWUVIqEeq8R7MWFuKTyQ" position="-12.188646918588546,73.64872705586437"/>
+    </nameVisual>
+    <sourceRole xmi:id="_avqyJlIqEeq8R7MWFuKTyQ" modelElement="_aU-aMVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visualProperties xmi:id="_a-MWUFIqEeq8R7MWFuKTyQ" position="3.806452509912077,-70.9322727193719"/>
+      <visibility xmi:id="_avsnV1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avsnVlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avrZMFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="loggedInUser" navigable="true">
+      <modelElement href="Reservations.uml#_aUNlMVIqEeq8R7MWFuKTyQ"/>
+      <visualProperties xmi:id="_a-M9YFIqEeq8R7MWFuKTyQ" position="-242.5015058338686,12.04351731580121"/>
+      <stereotypes xmi:id="_Oz0ZQFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avsnWVIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avsnWFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_avqyIVIqEeq8R7MWFuKTyQ" targetItem="_avvDkFIqEeq8R7MWFuKTyQ" sourceItem="_avqyIFIqEeq8R7MWFuKTyQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avqyIlIqEeq8R7MWFuKTyQ" source="_avvDkFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aU6v0FIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avsAQ1IqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avsAQFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avsAQVIqEeq8R7MWFuKTyQ" modelElement="_aU6v0VIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avtOYVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avtOYFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avsAQlIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="idPass" navigable="true">
+      <modelElement href="Reservations.uml#_aUIssVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Oz1nYFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_Oz2OcFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avtOY1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avtOYlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avqyI1IqEeq8R7MWFuKTyQ" source="_avvDkFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aU7W4VIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avsnUVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avsARFIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avsARVIqEeq8R7MWFuKTyQ" modelElement="_aU7W4lIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avtOZ1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avtOZlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avsnUFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="users" navigable="true">
+      <modelElement href="Reservations.uml#_aUKh4VIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Oz21gFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_Oz21gVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avtOaVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avtOaFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_avqyJFIqEeq8R7MWFuKTyQ" source="_avvDkFIqEeq8R7MWFuKTyQ">
+    <modelElement href="Reservations.uml#_aU9MEFIqEeq8R7MWFuKTyQ"/>
+    <stereotypes xmi:id="_avsnVVIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <nameVisual xmi:id="_avsnUlIqEeq8R7MWFuKTyQ" text=""/>
+    <sourceRole xmi:id="_avsnU1IqEeq8R7MWFuKTyQ" modelElement="_aU9MEVIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="">
+      <visibility xmi:id="_avt1clIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avt1cVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_avsnVFIqEeq8R7MWFuKTyQ" aggregationKind="NONE" name="shows" navigable="true">
+      <modelElement href="Reservations.uml#_aUMXEFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_Oz4DoFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_Oz4DoVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avt1dFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avt1c1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_awLIcVIqEeq8R7MWFuKTyQ" targetItem="_awMWkFIqEeq8R7MWFuKTyQ" sourceItem="_awLIcFIqEeq8R7MWFuKTyQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_au_csFIqEeq8R7MWFuKTyQ" modelElement="_aU0pMVIqEeq8R7MWFuKTyQ" sourceConnectionVisual="_au_csVIqEeq8R7MWFuKTyQ" text="&#xA;@author danielsaneel&#xA;@version 02-15-2020 1.0&#xA;Theater class, creates object of theater with all available seats and shows.&#xA; *" item="_avTlwFIqEeq8R7MWFuKTyQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_aviPQFIqEeq8R7MWFuKTyQ" modelElement="_aU0pMlIqEeq8R7MWFuKTyQ" sourceConnectionVisual="_aviPQVIqEeq8R7MWFuKTyQ" text="Inner Show Class&#xA;&#x9; * implements Comparable" item="_avl5qVIqEeq8R7MWFuKTyQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_avqyIFIqEeq8R7MWFuKTyQ" modelElement="_aU0pMFIqEeq8R7MWFuKTyQ" sourceConnectionVisual="_avqyIVIqEeq8R7MWFuKTyQ" text="&#xA;@author danielsaneel&#xA;@version 02-15-2020 1.0&#xA;Class Reservation, handles most of the back end functions, &#xA;Acts as a intermediate class between other objects" item="_avvDkFIqEeq8R7MWFuKTyQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_awLIcFIqEeq8R7MWFuKTyQ" modelElement="_aU0CIFIqEeq8R7MWFuKTyQ" sourceConnectionVisual="_awLIcVIqEeq8R7MWFuKTyQ" text="&#xA;@author danielsaneel&#xA;@version 02-15-2020 1.0&#xA;Program Launcher Class" item="_awMWkFIqEeq8R7MWFuKTyQ"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_at2NMFIqEeq8R7MWFuKTyQ" modelElement="_aPpOQFIqEeq8R7MWFuKTyQ" name="User" associationsIn="_avqLEFIqEeq8R7MWFuKTyQ" associationsOut="_atzw8FIqEeq8R7MWFuKTyQ _at1mIFIqEeq8R7MWFuKTyQ">
+    <visualProperties xmi:id="_at2NMVIqEeq8R7MWFuKTyQ" position="41.0,-307.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_at2NMlIqEeq8R7MWFuKTyQ" label="+"/>
+    <attributes xmi:id="_at2NM1IqEeq8R7MWFuKTyQ" name="myTempBooking" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUlYoFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O0lOQFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0nDcFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O0o4oFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0pfsFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1sokFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1sokVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_at2NNlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NN1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_at2NOFIqEeq8R7MWFuKTyQ" name="TreeMap">
+        <modelElement href="Reservations.uml#_aTCggFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_at2NOVIqEeq8R7MWFuKTyQ" name="bookings" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUmmwVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O0qGwFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0qGwVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O0rU4FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0rU4VIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1t2sFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1t2sVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_at2NPFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NPVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_at2NPlIqEeq8R7MWFuKTyQ" name="TreeMap">
+        <modelElement href="Reservations.uml#_aTCggFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_at2NP1IqEeq8R7MWFuKTyQ" name="id">
+      <modelElement href="Reservations.uml#_aUnN0lIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_at2NQFIqEeq8R7MWFuKTyQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_at2NQVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NQlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_at2NQ1IqEeq8R7MWFuKTyQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_at2NRFIqEeq8R7MWFuKTyQ" name="pass">
+      <modelElement href="Reservations.uml#_aUn04VIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_at2NRVIqEeq8R7MWFuKTyQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_at2NRlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NR1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_at2NSFIqEeq8R7MWFuKTyQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_at2NSVIqEeq8R7MWFuKTyQ" name="User">
+      <modelElement href="Reservations.uml#_aPqcYFIqEeq8R7MWFuKTyQ"/>
+      <keywords xmi:id="_at2NSlIqEeq8R7MWFuKTyQ" keyword="create"/>
+      <stereotypes xmi:id="_at2NS1IqEeq8R7MWFuKTyQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_at2NTFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NTVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_at2NTlIqEeq8R7MWFuKTyQ" modelElement="_aPrqgFIqEeq8R7MWFuKTyQ">
+        <type xmi:id="_at2NT1IqEeq8R7MWFuKTyQ" modelElement="_aPpOQFIqEeq8R7MWFuKTyQ" name="User"/>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_at2NUFIqEeq8R7MWFuKTyQ" modelElement="_aPs4oFIqEeq8R7MWFuKTyQ" name="User">
+      <keywords xmi:id="_at2NUVIqEeq8R7MWFuKTyQ" keyword="create"/>
+      <visibility xmi:id="_at2NUlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NU1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_at2NVFIqEeq8R7MWFuKTyQ" modelElement="_aPvU4FIqEeq8R7MWFuKTyQ">
+        <type xmi:id="_at2NVVIqEeq8R7MWFuKTyQ" modelElement="_aPpOQFIqEeq8R7MWFuKTyQ" name="User"/>
+      </outParameters>
+      <parameters xmi:id="_at2NVlIqEeq8R7MWFuKTyQ" modelElement="_aPs4oVIqEeq8R7MWFuKTyQ" name="id">
+        <cardinality xmi:id="_at2NV1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_at2NWFIqEeq8R7MWFuKTyQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_at2NWVIqEeq8R7MWFuKTyQ" modelElement="_aPs4olIqEeq8R7MWFuKTyQ" name="password">
+        <cardinality xmi:id="_at2NWlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_at2NW1IqEeq8R7MWFuKTyQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_at2NXFIqEeq8R7MWFuKTyQ" modelElement="_aPv78FIqEeq8R7MWFuKTyQ" name="viewReservation" staticOperation="true">
+      <visibility xmi:id="_at2NXVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NXlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_at2NX1IqEeq8R7MWFuKTyQ" modelElement="_aT9tkFIqEeq8R7MWFuKTyQ" name="createBooking">
+      <visibility xmi:id="_at2NYFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NYVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_at2NYlIqEeq8R7MWFuKTyQ" modelElement="_aT-UoFIqEeq8R7MWFuKTyQ" name="desiredShow">
+        <cardinality xmi:id="_at2NY1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_at2NZFIqEeq8R7MWFuKTyQ" name="Show">
+          <modelElement href="Reservations.uml#_aTiPwFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_at2NZVIqEeq8R7MWFuKTyQ" name="list">
+        <modelElement href="Reservations.uml#_aT-UoVIqEeq8R7MWFuKTyQ"/>
+        <cardinality xmi:id="_at2NZlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_at2NZ1IqEeq8R7MWFuKTyQ" name="ArrayList">
+          <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_at2NaFIqEeq8R7MWFuKTyQ" modelElement="_aUCmEFIqEeq8R7MWFuKTyQ" name="cancelBooking">
+      <visibility xmi:id="_at2NaVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2NalIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_at2Na1IqEeq8R7MWFuKTyQ" modelElement="_aUCmEVIqEeq8R7MWFuKTyQ" name="desiredShow">
+        <cardinality xmi:id="_at2NbFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_at2NbVIqEeq8R7MWFuKTyQ" name="Show">
+          <modelElement href="Reservations.uml#_aTiPwFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_at2NblIqEeq8R7MWFuKTyQ" name="list">
+        <modelElement href="Reservations.uml#_aUCmElIqEeq8R7MWFuKTyQ"/>
+        <cardinality xmi:id="_at2Nb1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_at2NcFIqEeq8R7MWFuKTyQ" name="ArrayList">
+          <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_at2NcVIqEeq8R7MWFuKTyQ" modelElement="_aUEbQFIqEeq8R7MWFuKTyQ" name="viewReservationByDate" staticOperation="true">
+      <visibility xmi:id="_at2NclIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_at2Nc1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_at2NdFIqEeq8R7MWFuKTyQ" modelElement="_aUEbQVIqEeq8R7MWFuKTyQ" name="date">
+        <cardinality xmi:id="_at2NdVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_at2NdlIqEeq8R7MWFuKTyQ" name="LocalDate">
+          <modelElement href="Reservations.uml#_aTgakFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_avTlwFIqEeq8R7MWFuKTyQ" modelElement="_aOxEgFIqEeq8R7MWFuKTyQ" comments="_au_csFIqEeq8R7MWFuKTyQ" targetConnectionVisual="_au_csVIqEeq8R7MWFuKTyQ" name="Theater" associationsOut="_avADwFIqEeq8R7MWFuKTyQ _avADwVIqEeq8R7MWFuKTyQ _avADwlIqEeq8R7MWFuKTyQ _avAq0FIqEeq8R7MWFuKTyQ _avAq0VIqEeq8R7MWFuKTyQ _avAq0lIqEeq8R7MWFuKTyQ _avAq01IqEeq8R7MWFuKTyQ _avBR4FIqEeq8R7MWFuKTyQ _avBR4VIqEeq8R7MWFuKTyQ _avBR4lIqEeq8R7MWFuKTyQ _avB48FIqEeq8R7MWFuKTyQ _avB48VIqEeq8R7MWFuKTyQ _avB48lIqEeq8R7MWFuKTyQ _avB481IqEeq8R7MWFuKTyQ _avB49FIqEeq8R7MWFuKTyQ">
+    <visualProperties xmi:id="_avTlwVIqEeq8R7MWFuKTyQ" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_avTlwlIqEeq8R7MWFuKTyQ" label="+"/>
+    <attributes xmi:id="_avTlw1IqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="shows" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUOzUFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O0txIFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0txIVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O0uYMFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0vmUFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1udwFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1vE0FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTlxlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTlx1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTlyFIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTlyVIqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="showName">
+      <modelElement href="Reservations.uml#_aUQogFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O0wNYFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0w0cFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O0yCkFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0ypoFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1vr4FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1wS8FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTlzFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTlzVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTlzlIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTlz1IqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="leftMainSeats">
+      <modelElement href="Reservations.uml#_aUSdsVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O0z3wFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O00e0FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O01s8FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O02UAFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1w6AFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1xhEFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl0lIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl01IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl1FIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl1VIqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="rightMainSeats">
+      <modelElement href="Reservations.uml#_aUU58FIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O03iIFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O03iIVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O04wQFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O05XUFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1yIIFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1yvMFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl2FIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl2VIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl2lIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl21IqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="mainSeats">
+      <modelElement href="Reservations.uml#_aUWIEVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O05-YFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O07MgFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O07zkFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O08aoFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1zWQFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1z9UFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl3lIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl31IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl4FIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl4VIqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="southBalconies1">
+      <modelElement href="Reservations.uml#_aUX9QFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O09BsFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O09owFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O0-P0FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O0-P0VIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O10kYFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O11LcFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl5FIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl5VIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl5lIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl51IqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="southBalconies2">
+      <modelElement href="Reservations.uml#_aUZLYVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O0_d8FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1AsEFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1BTIFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1BTIVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O12ZkFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O12ZkVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl6lIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl61IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl7FIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl7VIqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="westBalconies">
+      <modelElement href="Reservations.uml#_aUaZgVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1B6MFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1ChQFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1DIUFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1DIUVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O13AoFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O13nsFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl8FIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl8VIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl8lIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl81IqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="eastBalconies">
+      <modelElement href="Reservations.uml#_aUbnoVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1E9gFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1E9gVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1GLoFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1GLoVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O14OwFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O14OwVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl9lIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl91IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl-FIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl-VIqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="availableSeats">
+      <modelElement href="Reservations.uml#_aUc1wVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1GysFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1HZwFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1IA0FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1IA0VIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O16D8FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O16D8VIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTl_FIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTl_VIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTl_lIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTl_1IqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="bookedSeats">
+      <modelElement href="Reservations.uml#_aUeD4VIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1In4FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1J2AFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1KdEFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1LEIFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O16rAFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O17SEFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTmAlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTmA1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTmBFIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTmBVIqEeq8R7MWFuKTyQ" defaultValue="LocalDate.parse(&quot;2020-12-23&quot;)" name="initialdate">
+      <modelElement href="Reservations.uml#_aUfSAVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1LrMFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1TnAFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O17SEVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTmB1IqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avTmCFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTmCVIqEeq8R7MWFuKTyQ" name="LocalDate">
+        <modelElement href="Reservations.uml#_aTgakFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTmClIqEeq8R7MWFuKTyQ" defaultValue="LocalDate.parse(&quot;2021-01-02&quot;)" name="finaldate">
+      <modelElement href="Reservations.uml#_aUf5EVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1U1IFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1WDQFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O175IFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTmDFIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avTmDVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTmDlIqEeq8R7MWFuKTyQ" name="LocalDate">
+        <modelElement href="Reservations.uml#_aTgakFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTmD1IqEeq8R7MWFuKTyQ" defaultValue="LocalDate.parse(&quot;2020-12-26&quot;)" name="discountNight1">
+      <modelElement href="Reservations.uml#_aUggIVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1YfgFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1ZGkFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O18gMFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTmEVIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avTmElIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTmE1IqEeq8R7MWFuKTyQ" name="LocalDate">
+        <modelElement href="Reservations.uml#_aTgakFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTmFFIqEeq8R7MWFuKTyQ" defaultValue="LocalDate.parse(&quot;2020-12-27&quot;)" name="discountNight2">
+      <modelElement href="Reservations.uml#_aUhuQFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1aUsFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1a7wFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O19HQFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTmFlIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avTmF1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTmGFIqEeq8R7MWFuKTyQ" name="LocalDate">
+        <modelElement href="Reservations.uml#_aTgakFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avTmGVIqEeq8R7MWFuKTyQ" defaultValue="null" name="name">
+      <modelElement href="Reservations.uml#_aUiVUVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_avTmGlIqEeq8R7MWFuKTyQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avTmG1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTmHFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avTmHVIqEeq8R7MWFuKTyQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_avTmHlIqEeq8R7MWFuKTyQ" modelElement="_aO1V8FIqEeq8R7MWFuKTyQ" name="Theater">
+      <keywords xmi:id="_avTmH1IqEeq8R7MWFuKTyQ" keyword="create"/>
+      <visibility xmi:id="_avTmIFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTmIVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_avTmIlIqEeq8R7MWFuKTyQ" modelElement="_aO1V81IqEeq8R7MWFuKTyQ">
+        <type xmi:id="_avTmI1IqEeq8R7MWFuKTyQ" modelElement="_aOxEgFIqEeq8R7MWFuKTyQ" name="Theater"/>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_avTmJFIqEeq8R7MWFuKTyQ" modelElement="_aO3yMFIqEeq8R7MWFuKTyQ" name="initializeShows">
+      <visibility xmi:id="_avTmJVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTmJlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_avTmJ1IqEeq8R7MWFuKTyQ" modelElement="_aO4ZQFIqEeq8R7MWFuKTyQ" name="initializeSeats">
+      <visibility xmi:id="_avTmKFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avTmKVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_avvDkFIqEeq8R7MWFuKTyQ" modelElement="_aOhz8FIqEeq8R7MWFuKTyQ" comments="_avqyIFIqEeq8R7MWFuKTyQ" targetConnectionVisual="_avqyIVIqEeq8R7MWFuKTyQ" name="Reservation" associationsOut="_avqLEFIqEeq8R7MWFuKTyQ _avqyIlIqEeq8R7MWFuKTyQ _avqyI1IqEeq8R7MWFuKTyQ _avqyJFIqEeq8R7MWFuKTyQ">
+    <visualProperties xmi:id="_avvDkVIqEeq8R7MWFuKTyQ" position="-311.0,-22.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_avvDklIqEeq8R7MWFuKTyQ" label="+"/>
+    <attributes xmi:id="_avvDk1IqEeq8R7MWFuKTyQ" defaultValue="null" name="loggedIn" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUIFoFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_avvDlFIqEeq8R7MWFuKTyQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avvDlVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avvDllIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avvDl1IqEeq8R7MWFuKTyQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avvDmFIqEeq8R7MWFuKTyQ" defaultValue="new TreeMap&lt;>()" name="idPass" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUIssVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1kswFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1kswVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1lT0FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1nJAFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O19uUFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1-VYFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avvDm1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avvDnFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avvDnVIqEeq8R7MWFuKTyQ" name="TreeMap">
+        <modelElement href="Reservations.uml#_aTCggFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avvDnlIqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="users" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUKh4VIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1nwEFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1nwEVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1oXIFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1o-MFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1_jgFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1_jgVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avvDoVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avvDolIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avvDo1IqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avvDpFIqEeq8R7MWFuKTyQ" defaultValue="new ArrayList&lt;>()" name="shows" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUMXEFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1plQFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1qMUFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1sBgFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1sBgVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O2AKkFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O2AxoFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avvDp1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avvDqFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avvDqVIqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avvDqlIqEeq8R7MWFuKTyQ" defaultValue="null" name="loggedInUser">
+      <modelElement href="Reservations.uml#_aUNlMVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1i3kFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1kFsFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O2BYsFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avvDrFIqEeq8R7MWFuKTyQ" label="~"/>
+      <cardinality xmi:id="_avvDrVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avvDrlIqEeq8R7MWFuKTyQ" modelElement="_aPpOQFIqEeq8R7MWFuKTyQ" name="User"/>
+    </attributes>
+    <operations xmi:id="_avvDr1IqEeq8R7MWFuKTyQ" modelElement="_aOkQMFIqEeq8R7MWFuKTyQ" name="mainMenu">
+      <visibility xmi:id="_avvDsFIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avvDsVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_avvDslIqEeq8R7MWFuKTyQ" modelElement="_aOkQMVIqEeq8R7MWFuKTyQ" name="signUp">
+      <visibility xmi:id="_avvDs1IqEeq8R7MWFuKTyQ" label="-"/>
+      <cardinality xmi:id="_avvDtFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_avvDtVIqEeq8R7MWFuKTyQ" modelElement="_aOk3QFIqEeq8R7MWFuKTyQ" name="signIn">
+      <visibility xmi:id="_avvDtlIqEeq8R7MWFuKTyQ" label="-"/>
+      <cardinality xmi:id="_avvDt1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_avvDuFIqEeq8R7MWFuKTyQ" modelElement="_aOk3QVIqEeq8R7MWFuKTyQ" name="transactionMode">
+      <visibility xmi:id="_avvDuVIqEeq8R7MWFuKTyQ" label="-"/>
+      <cardinality xmi:id="_avvDulIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_avvDu1IqEeq8R7MWFuKTyQ" modelElement="_aOleUFIqEeq8R7MWFuKTyQ" name="exit" staticOperation="true">
+      <visibility xmi:id="_avvDvFIqEeq8R7MWFuKTyQ" label="-"/>
+      <cardinality xmi:id="_avvDvVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_avvDvlIqEeq8R7MWFuKTyQ" modelElement="_aTPU0FIqEeq8R7MWFuKTyQ" name="receiptMode">
+      <visibility xmi:id="_avvDv1IqEeq8R7MWFuKTyQ" label="-"/>
+      <cardinality xmi:id="_avvDwFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_avvDwVIqEeq8R7MWFuKTyQ" modelElement="_aTPU0VIqEeq8R7MWFuKTyQ" name="loggedInUser">
+        <cardinality xmi:id="_avvDwlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_avvDw1IqEeq8R7MWFuKTyQ" modelElement="_aPpOQFIqEeq8R7MWFuKTyQ" name="User"/>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_avl5qVIqEeq8R7MWFuKTyQ" modelElement="_aO6OcFIqEeq8R7MWFuKTyQ" comments="_aviPQFIqEeq8R7MWFuKTyQ" targetConnectionVisual="_aviPQVIqEeq8R7MWFuKTyQ" name="Show" associationsOut="_avi2UFIqEeq8R7MWFuKTyQ _avi2UVIqEeq8R7MWFuKTyQ _avl5oFIqEeq8R7MWFuKTyQ">
+    <visualProperties xmi:id="_avl5qlIqEeq8R7MWFuKTyQ" position="-468.0,275.0" size="471.0,174.0"/>
+    <visibility xmi:id="_avl5q1IqEeq8R7MWFuKTyQ" label="~"/>
+    <attributes xmi:id="_avl5rFIqEeq8R7MWFuKTyQ" defaultValue="null" name="date">
+      <modelElement href="Reservations.uml#_aUi8YVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1bi0FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1dYAFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O2B_wFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avl5rlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avl5r1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avl5sFIqEeq8R7MWFuKTyQ" name="LocalDate">
+        <modelElement href="Reservations.uml#_aTgakFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avl5sVIqEeq8R7MWFuKTyQ" defaultValue="null" name="time">
+      <modelElement href="Reservations.uml#_aUjjcVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1gbUFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1hpcFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O2B_wVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avl5s1IqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avl5tFIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avl5tVIqEeq8R7MWFuKTyQ" name="LocalTime">
+        <modelElement href="Reservations.uml#_aT0joFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_avl5tlIqEeq8R7MWFuKTyQ" name="availableSeats">
+      <modelElement href="Reservations.uml#_aUkKgFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_O1emIFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1fNMFIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O1f0QFIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O1f0QVIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_O2Cm0FIsEeqaz5vQXoZuAg" name="Generics"/>
+      <stereotypes xmi:id="_O2D08FIsEeqaz5vQXoZuAg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_avl5uVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avl5ulIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_avl5u1IqEeq8R7MWFuKTyQ" name="ArrayList">
+        <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_avl5vFIqEeq8R7MWFuKTyQ" modelElement="_aT1xwFIqEeq8R7MWFuKTyQ" name="Show">
+      <keywords xmi:id="_avl5vVIqEeq8R7MWFuKTyQ" keyword="create"/>
+      <visibility xmi:id="_avl5vlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avl5v1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_avl5wFIqEeq8R7MWFuKTyQ" modelElement="_aT2Y1FIqEeq8R7MWFuKTyQ">
+        <type xmi:id="_avl5wVIqEeq8R7MWFuKTyQ" modelElement="_aO6OcFIqEeq8R7MWFuKTyQ" name="Show"/>
+      </outParameters>
+      <parameters xmi:id="_avl5wlIqEeq8R7MWFuKTyQ" modelElement="_aT1xwVIqEeq8R7MWFuKTyQ" name="date">
+        <cardinality xmi:id="_avl5w1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_avl5xFIqEeq8R7MWFuKTyQ" name="LocalDate">
+          <modelElement href="Reservations.uml#_aTgakFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_avl5xVIqEeq8R7MWFuKTyQ" modelElement="_aT2Y0FIqEeq8R7MWFuKTyQ" name="time">
+        <cardinality xmi:id="_avl5xlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_avl5x1IqEeq8R7MWFuKTyQ" name="LocalTime">
+          <modelElement href="Reservations.uml#_aT0joFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_avl5yFIqEeq8R7MWFuKTyQ" name="availableSeats">
+        <modelElement href="Reservations.uml#_aT2Y0VIqEeq8R7MWFuKTyQ"/>
+        <cardinality xmi:id="_avl5yVIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_avl5ylIqEeq8R7MWFuKTyQ" name="ArrayList">
+          <modelElement href="Reservations.uml#_aS-2IFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_avl5y1IqEeq8R7MWFuKTyQ" name="compareTo">
+      <modelElement href="Reservations.uml#_aT41EVIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_avl5zFIqEeq8R7MWFuKTyQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_avl5zVIqEeq8R7MWFuKTyQ" name="Annotations"/>
+      <visibility xmi:id="_avl5zlIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_avl5z1IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_avl50FIqEeq8R7MWFuKTyQ" modelElement="_aT5cIVIqEeq8R7MWFuKTyQ">
+        <type xmi:id="_avl50VIqEeq8R7MWFuKTyQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_avl50lIqEeq8R7MWFuKTyQ" modelElement="_aT5cIFIqEeq8R7MWFuKTyQ" name="o">
+        <cardinality xmi:id="_avl501IqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+        <type xmi:id="_avl51FIqEeq8R7MWFuKTyQ" name="Object">
+          <modelElement href="Reservations.uml#_aT4OAFIqEeq8R7MWFuKTyQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_awJ6UFIqEeq8R7MWFuKTyQ" name="Exception">
+    <modelElement href="Reservations.uml#_aTsAwVIqEeq8R7MWFuKTyQ"/>
+    <visualProperties xmi:id="_awJ6UVIqEeq8R7MWFuKTyQ" position="-438.0,132.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_awJ6UlIqEeq8R7MWFuKTyQ" name="Reference"/>
+    <visibility xmi:id="_awJ6U1IqEeq8R7MWFuKTyQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_awMWkFIqEeq8R7MWFuKTyQ" modelElement="_aOWNwFIqEeq8R7MWFuKTyQ" comments="_awLIcFIqEeq8R7MWFuKTyQ" targetConnectionVisual="_awLIcVIqEeq8R7MWFuKTyQ" name="ProgramLauncher">
+    <visualProperties xmi:id="_awMWkVIqEeq8R7MWFuKTyQ" position="-831.0,93.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_awMWklIqEeq8R7MWFuKTyQ" label="+"/>
+    <attributes xmi:id="_awMWk1IqEeq8R7MWFuKTyQ" defaultValue="System.getProperty(&quot;user.dir&quot;)" name="directory" staticAttribute="true">
+      <modelElement href="Reservations.uml#_aUG3gFIqEeq8R7MWFuKTyQ"/>
+      <stereotypes xmi:id="_awMWlFIqEeq8R7MWFuKTyQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_awMWlVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_awMWllIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <type xmi:id="_awMWl1IqEeq8R7MWFuKTyQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_awMWmFIqEeq8R7MWFuKTyQ" modelElement="_aOfXsFIqEeq8R7MWFuKTyQ" name="main" staticOperation="true">
+      <visibility xmi:id="_awMWmVIqEeq8R7MWFuKTyQ" label="+"/>
+      <cardinality xmi:id="_awMWmlIqEeq8R7MWFuKTyQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_awMWm1IqEeq8R7MWFuKTyQ" modelElement="_aOfXsVIqEeq8R7MWFuKTyQ" name="args">
+        <cardinality xmi:id="_awMWnFIqEeq8R7MWFuKTyQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_awMWnVIqEeq8R7MWFuKTyQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ZuH1kFIqEeq8R7MWFuKTyQ" name="Reservations" visibility="public">
+    <eAnnotations xmi:id="_V3vDwFIzEeqaz5vQXoZuAg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_V3z8QFIzEeqaz5vQXoZuAg" source="dangling-refs">
+        <contents xmi:type="uml:Operation" xmi:id="_aPqcYFIqEeq8R7MWFuKTyQ" name="User"/>
+        <contents xmi:type="uml:Class" xmi:id="_aS-2IFIqEeq8R7MWFuKTyQ" name="ArrayList"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTCggFIqEeq8R7MWFuKTyQ" name="TreeMap"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTE8wFIqEeq8R7MWFuKTyQ" name="BufferedWriter"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTGx8FIqEeq8R7MWFuKTyQ" name="File"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTIAEVIqEeq8R7MWFuKTyQ" name="FileWriter"/>
+        <contents xmi:type="uml:Interface" xmi:id="_aTKcUFIqEeq8R7MWFuKTyQ" name="Map"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTLqcVIqEeq8R7MWFuKTyQ" name="Random"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTM4kVIqEeq8R7MWFuKTyQ" name="Scanner"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTTmQFIqEeq8R7MWFuKTyQ" name="TreeSet"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTgakFIqEeq8R7MWFuKTyQ" name="LocalDate"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTiPwFIqEeq8R7MWFuKTyQ" name="Show"/>
+        <contents xmi:type="uml:Class" xmi:id="_aTsAwVIqEeq8R7MWFuKTyQ" name="Exception"/>
+        <contents xmi:type="uml:Interface" xmi:id="_aTyHYFIqEeq8R7MWFuKTyQ" name="Comparable"/>
+        <contents xmi:type="uml:Class" xmi:id="_aT0joFIqEeq8R7MWFuKTyQ" name="LocalTime"/>
+        <contents xmi:type="uml:Parameter" xmi:id="_aT2Y0VIqEeq8R7MWFuKTyQ" name="availableSeats"/>
+        <contents xmi:type="uml:Class" xmi:id="_aT4OAFIqEeq8R7MWFuKTyQ" name="Object"/>
+        <contents xmi:type="uml:Operation" xmi:id="_aT41EVIqEeq8R7MWFuKTyQ" name="compareTo"/>
+        <contents xmi:type="uml:Parameter" xmi:id="_aT-UoVIqEeq8R7MWFuKTyQ" name="list"/>
+        <contents xmi:type="uml:Parameter" xmi:id="_aUCmElIqEeq8R7MWFuKTyQ" name="list"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUG3gFIqEeq8R7MWFuKTyQ" name="directory" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </contents>
+        <contents xmi:type="uml:Property" xmi:id="_aUIFoFIqEeq8R7MWFuKTyQ" name="loggedIn" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </contents>
+        <contents xmi:type="uml:Property" xmi:id="_aUIssVIqEeq8R7MWFuKTyQ" name="idPass" isStatic="true"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUKh4VIqEeq8R7MWFuKTyQ" name="users" isStatic="true"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUMXEFIqEeq8R7MWFuKTyQ" name="shows" isStatic="true"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUNlMVIqEeq8R7MWFuKTyQ" name="loggedInUser" visibility="package"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUOzUFIqEeq8R7MWFuKTyQ" name="shows" isStatic="true"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUQogFIqEeq8R7MWFuKTyQ" name="showName"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUSdsVIqEeq8R7MWFuKTyQ" name="leftMainSeats"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUU58FIqEeq8R7MWFuKTyQ" name="rightMainSeats"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUWIEVIqEeq8R7MWFuKTyQ" name="mainSeats"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUX9QFIqEeq8R7MWFuKTyQ" name="southBalconies1"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUZLYVIqEeq8R7MWFuKTyQ" name="southBalconies2"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUaZgVIqEeq8R7MWFuKTyQ" name="westBalconies"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUbnoVIqEeq8R7MWFuKTyQ" name="eastBalconies"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUc1wVIqEeq8R7MWFuKTyQ" name="availableSeats"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUeD4VIqEeq8R7MWFuKTyQ" name="bookedSeats"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUfSAVIqEeq8R7MWFuKTyQ" name="initialdate" visibility="package"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUf5EVIqEeq8R7MWFuKTyQ" name="finaldate" visibility="package"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUggIVIqEeq8R7MWFuKTyQ" name="discountNight1" visibility="package"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUhuQFIqEeq8R7MWFuKTyQ" name="discountNight2" visibility="package"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUiVUVIqEeq8R7MWFuKTyQ" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </contents>
+        <contents xmi:type="uml:Property" xmi:id="_aUi8YVIqEeq8R7MWFuKTyQ" name="date"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUjjcVIqEeq8R7MWFuKTyQ" name="time"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUkKgFIqEeq8R7MWFuKTyQ" name="availableSeats"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUlYoFIqEeq8R7MWFuKTyQ" name="myTempBooking" isStatic="true"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUmmwVIqEeq8R7MWFuKTyQ" name="bookings" isStatic="true"/>
+        <contents xmi:type="uml:Property" xmi:id="_aUnN0lIqEeq8R7MWFuKTyQ" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </contents>
+        <contents xmi:type="uml:Property" xmi:id="_aUn04VIqEeq8R7MWFuKTyQ" name="pass">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </contents>
+        <contents xmi:type="uml:Association" xmi:id="_aU6v0FIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aU7W4VIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aU9MEFIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aU-aMFIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aU_oUVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVA2cVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVBdgVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVCEkVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVCroVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVD5wFIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVEg0VIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVFH4VIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVGWAVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVHkIVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVILMVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVIyQVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVJZUVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVKAYVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVLOgFIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVL1kFIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVMcoVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVNDsVIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVOR0VIqEeq8R7MWFuKTyQ" name=""/>
+        <contents xmi:type="uml:Association" xmi:id="_aVO44VIqEeq8R7MWFuKTyQ" name=""/>
+      </contents>
+    </eAnnotations>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Z3nv0FIqEeq8R7MWFuKTyQ" base_Package="_ZuH1kFIqEeq8R7MWFuKTyQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

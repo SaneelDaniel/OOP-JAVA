@@ -1,0 +1,96 @@
+print monnth cal
+
+/*
+	 * prints the month view of the calendar
+	 */
+	private void printMonthCal(LocalDate cal) {
+
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E, MMM d yyyy");
+		System.out.println(formatter.format(cal));
+		int dayOfMonthToday = cal.getDayOfMonth();
+		int dayOfWeek = cal.getDayOfWeek().getValue();
+		LocalDate x = LocalDate.of(cal.getYear(), cal.getMonth(), 1); 
+		int firstDayOfMonth = x.getDayOfWeek().getValue();
+		int lastDay = x.with(TemporalAdjusters.lastDayOfMonth()).getDayOfMonth();
+		x = LocalDate.of(cal.getYear(), cal.getMonth(), lastDay);
+		int lastWeekDay = x.getDayOfWeek().getValue();
+
+		//print days
+		for(int i = 0; i<days.size(); i++) {
+			System.out.print(days.get(i)+"   ");
+		}
+		System.out.println();
+
+
+		for(int j = 0; j<=days.size(); j++) {
+			if(j == firstDayOfMonth) {
+				break;
+			}
+			else {
+				System.out.printf("    ");
+			}
+		}
+		LocalDate d = LocalDate.of(cal.getYear(), cal.getMonth(), 1);
+		if(map.containsKey(d)) {
+			System.out.print(" {1}");
+		}
+		else {
+			System.out.print("  1");
+		}
+
+
+		if(firstDayOfMonth == 7) {
+			System.out.println();
+			firstDayOfMonth = 1;
+		}
+		int breaker = 0; 
+		for(int i = 0; i<=lastDay; i++) {
+			
+			if(breaker==7) {
+				System.out.println();
+				breaker = 1;
+			}
+		
+			
+			LocalDate next = d.plusDays(i);
+
+
+			if(i<10) {
+				if(map.containsKey(next)) {
+					System.out.printf("{%d}", next.getDayOfMonth());
+					System.out.print("   ");
+					//continue;
+				}
+				else {
+					/*
+					if(dayOfMonthToday == i) {
+						System.out.printf("[%d]", i);
+						System.out.print("   ");
+					}
+
+					else {*/
+					System.out.printf("%d    ", next.getDayOfMonth());
+				}
+			}
+			else {
+				if(map.containsKey(next)) {
+					System.out.printf("{%3d}", next.getDayOfMonth());
+					//System.out.print("  ");
+					//continue;
+				}
+				else {
+					/*
+					if(dayOfMonthToday == i) {
+						System.out.printf("[%d]", i);
+						System.out.print("  ");
+					}
+					else {*/
+					System.out.printf("%3d", next.getDayOfMonth());
+				}
+			}
+			
+			breaker++;
+
+		}
+		
+	}
